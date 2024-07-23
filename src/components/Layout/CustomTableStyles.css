@@ -1,0 +1,16 @@
+.rdt_TableHeadRow {
+  border-top: 2px solid #e0e0e0; /* Border for rows */
+  border-bottom: 2px solid #e0e0e0; /* Border for rows */
+}
+
+.rdt_TableRow {
+  border-bottom: 1px solid #e0e0e0; /* Border for rows */
+}
+
+.rdt_TableRow {
+  border-left: 1px solid #e0e0e0; /* Border for rows */
+}
+
+.rdt_TableCell {
+  border-right: 1px solid #e0e0e0; /* Border for columns */
+}

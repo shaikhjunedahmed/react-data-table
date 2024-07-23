@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box } from "@mui/material";
+import Title from "./components/Title/Title";
+import { labels } from "./labels/labels";
+import Layout from "./components/Layout";
 
 function App() {
+  const { ALL_MEMBERS } = labels;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box
+      borderTop="2px solid grey"
+      backgroundColor="aliceblue"
+      height="calc(100vh - 18px)"
+      sx={{ p: 1 }}
+    >
+      <Title title={ALL_MEMBERS} />
+      <Layout />
+    </Box>
   );
 }
 

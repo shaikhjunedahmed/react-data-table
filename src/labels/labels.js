@@ -1,0 +1,21 @@
+export const labels = {
+  ALL_MEMBERS: "All Members",
+  ADD_NEW_MEMBERS: "Add New Member",
+  EDIT_MEMBERS: "Edit Member",
+  ID: "Id",
+  MEMBER_NAME: "Member Name",
+  MEMBER_EMAIL: "Member Email",
+  MEMBER_PARENT_ID: "Member Parent Id",
+  MEMBER_AGE: "Member Age",
+  AGE: "Age",
+  ACTION: "Action",
+  DELETE_TITLE: "Are you sure?",
+  DELETE_SUBTITLE:
+    "If you delete this Member, then this action can not be undone.",
+  DELETE_SUCCESS_SUBTITLE: "Member has been deleted.",
+  DELETED: "Deleted!",
+  SUCCESS: "Success!",
+  ADD_USER_SUCCESS: "Member added successfully.",
+  DELETE_CONFIRM_BTN_TEXT: "Yes, delete it!",
+  API_ERROR: "Something went wrong, Please try again.",
+};
